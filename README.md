@@ -1,4 +1,22 @@
 ## UPDATE
+## By Jose Robles
+
+## Files
+
+We add 9 different files:
+* main.R: To load the data, preprocess it and call the other 4 scripts.
+* plot1.R: To create the plot 1.
+* plot2.R: To create the plot 2.
+* plot3.R: To create the plot 3.
+* plot4.R: To create the plot 4.
+* plot1.png: Image of plot 1.
+* plot2.png: Image of plot 2.
+* plot3.png: Image of plot 3.
+* plot4.png: Image of plot 4.
+
+## How to use the script
+
+In the main.R script we have to set up the working directory as the source file location (line 2), then it is assumed that the data is in the directory so it can be loaded properly (line 5). In line 9 we change the data type of the column Date to Date and we extract only the relevant dates for our plots (line 12). In line 15 we add a new column with both the Date and Time columns and convert it to the proper time data type (line 17). From lines 20-25 we change the data types to numeric. Finally, in lines 28-31 we execute the corresponding scripts to create the 4 plots. 
 
 ## Introduction
 
